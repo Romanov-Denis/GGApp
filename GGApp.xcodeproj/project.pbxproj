@@ -13,11 +13,7 @@
 		406621F62A9B255200168FC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406621F52A9B255200168FC3 /* Preview Assets.xcassets */; };
 		406621F82A9B255200168FC3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406621F72A9B255200168FC3 /* Persistence.swift */; };
 		406621FB2A9B255200168FC3 /* GGApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 406621F92A9B255200168FC3 /* GGApp.xcdatamodeld */; };
-		406622022A9B25D000168FC3 /* BarberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622012A9B25D000168FC3 /* BarberCell.swift */; };
-		406622042A9B25E500168FC3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622032A9B25E500168FC3 /* CalendarView.swift */; };
-		406622062A9B26F400168FC3 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622052A9B26F400168FC3 /* ServiceCell.swift */; };
 		406622092A9B27F200168FC3 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622082A9B27F200168FC3 /* FirstPage.swift */; };
-		4066220B2A9B324E00168FC3 /* About Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066220A2A9B324E00168FC3 /* About Page.swift */; };
 		4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066220C2A9B325E00168FC3 /* RegisterPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +25,7 @@
 		406621F52A9B255200168FC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		406621F72A9B255200168FC3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		406621FA2A9B255200168FC3 /* GGApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GGApp.xcdatamodel; sourceTree = "<group>"; };
-		406622012A9B25D000168FC3 /* BarberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberCell.swift; sourceTree = "<group>"; };
-		406622032A9B25E500168FC3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		406622052A9B26F400168FC3 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
 		406622082A9B27F200168FC3 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
-		4066220A2A9B324E00168FC3 /* About Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About Page.swift"; sourceTree = "<group>"; };
 		4066220C2A9B325E00168FC3 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,12 +80,8 @@
 		406622072A9B271000168FC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				406622012A9B25D000168FC3 /* BarberCell.swift */,
-				406622032A9B25E500168FC3 /* CalendarView.swift */,
-				406622052A9B26F400168FC3 /* ServiceCell.swift */,
 				406621F02A9B255100168FC3 /* ContentView.swift */,
 				406622082A9B27F200168FC3 /* FirstPage.swift */,
-				4066220A2A9B324E00168FC3 /* About Page.swift */,
 				4066220C2A9B325E00168FC3 /* RegisterPage.swift */,
 			);
 			path = View;
@@ -171,12 +159,8 @@
 			files = (
 				406621F82A9B255200168FC3 /* Persistence.swift in Sources */,
 				406621FB2A9B255200168FC3 /* GGApp.xcdatamodeld in Sources */,
-				4066220B2A9B324E00168FC3 /* About Page.swift in Sources */,
-				406622042A9B25E500168FC3 /* CalendarView.swift in Sources */,
-				406622062A9B26F400168FC3 /* ServiceCell.swift in Sources */,
 				4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */,
 				406621F12A9B255100168FC3 /* ContentView.swift in Sources */,
-				406622022A9B25D000168FC3 /* BarberCell.swift in Sources */,
 				406621EF2A9B255100168FC3 /* GGAppApp.swift in Sources */,
 				406622092A9B27F200168FC3 /* FirstPage.swift in Sources */,
 			);
