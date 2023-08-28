@@ -10,6 +10,7 @@ import SwiftUI
 struct FirstPage: View {
     var body: some View {
         VStack{
+            TabVi
             VStack (spacing: 60) {
                 Button() {
                     print("Переходим к услуге")
@@ -45,6 +46,7 @@ struct FirstPage: View {
             .frame (maxWidth: .infinity, maxHeight: .infinity)
             .background(Image("back").blur(radius: 10))
         }
+        
        
     }
 }

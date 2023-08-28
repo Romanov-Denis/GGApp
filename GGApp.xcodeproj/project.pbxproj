@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		406621EF2A9B255100168FC3 /* GGAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406621EE2A9B255100168FC3 /* GGAppApp.swift */; };
-		406621F12A9B255100168FC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406621F02A9B255100168FC3 /* ContentView.swift */; };
+		406621F12A9B255100168FC3 /* MainTabar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406621F02A9B255100168FC3 /* MainTabar.swift */; };
 		406621F32A9B255200168FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406621F22A9B255200168FC3 /* Assets.xcassets */; };
 		406621F62A9B255200168FC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406621F52A9B255200168FC3 /* Preview Assets.xcassets */; };
 		406621F82A9B255200168FC3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406621F72A9B255200168FC3 /* Persistence.swift */; };
 		406621FB2A9B255200168FC3 /* GGApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 406621F92A9B255200168FC3 /* GGApp.xcdatamodeld */; };
 		406622092A9B27F200168FC3 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622082A9B27F200168FC3 /* FirstPage.swift */; };
 		4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066220C2A9B325E00168FC3 /* RegisterPage.swift */; };
+		406622112A9C51DB00168FC3 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622102A9C51DB00168FC3 /* AboutUsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		406621EB2A9B255100168FC3 /* GGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406621EE2A9B255100168FC3 /* GGAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGAppApp.swift; sourceTree = "<group>"; };
-		406621F02A9B255100168FC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		406621F02A9B255100168FC3 /* MainTabar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabar.swift; sourceTree = "<group>"; };
 		406621F22A9B255200168FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406621F52A9B255200168FC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		406621F72A9B255200168FC3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		406621FA2A9B255200168FC3 /* GGApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GGApp.xcdatamodel; sourceTree = "<group>"; };
 		406622082A9B27F200168FC3 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		4066220C2A9B325E00168FC3 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		406622102A9C51DB00168FC3 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		406622072A9B271000168FC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				406621F02A9B255100168FC3 /* ContentView.swift */,
+				406621F02A9B255100168FC3 /* MainTabar.swift */,
+				406622102A9C51DB00168FC3 /* AboutUsView.swift */,
 				406622082A9B27F200168FC3 /* FirstPage.swift */,
 				4066220C2A9B325E00168FC3 /* RegisterPage.swift */,
 			);
@@ -160,9 +163,10 @@
 				406621F82A9B255200168FC3 /* Persistence.swift in Sources */,
 				406621FB2A9B255200168FC3 /* GGApp.xcdatamodeld in Sources */,
 				4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */,
-				406621F12A9B255100168FC3 /* ContentView.swift in Sources */,
+				406621F12A9B255100168FC3 /* MainTabar.swift in Sources */,
 				406621EF2A9B255100168FC3 /* GGAppApp.swift in Sources */,
 				406622092A9B27F200168FC3 /* FirstPage.swift in Sources */,
+				406622112A9C51DB00168FC3 /* AboutUsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

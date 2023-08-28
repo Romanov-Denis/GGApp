@@ -13,7 +13,7 @@ struct GGAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabar()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
