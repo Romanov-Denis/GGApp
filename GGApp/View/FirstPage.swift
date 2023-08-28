@@ -15,35 +15,35 @@ struct FirstPage: View {
                     print("Переходим к услуге")
                 } label: {
                     Text("Услуга")
-                        .foregroundColor(.orange)
-                        .font(.title)
+                        .foregroundColor(.black)
+                        .font(.title3.bold())
                 }
                 .frame(width: 280,height: 60)
-                .overlay(Capsule().stroke(Color.orange,lineWidth: 5))
+                .overlay(Capsule().stroke(Color.black,lineWidth: 5))
                 
                 Button() {
-                    print("Переходим к услуге")
+                    print("Переходим к сотруднику")
                 } label: {
                     Text("Сотрудник")
-                        .foregroundColor(.orange)
-                        .font(.title)
+                        .foregroundColor(.black)
+                        .font(.title3.bold())
                 }
                 .frame(width: 280,height: 60)
-                .overlay(Capsule().stroke(Color.orange,lineWidth: 5))
+                .overlay(Capsule().stroke(Color.black,lineWidth: 5))
                 
                 Button() {
-                    print("Переходим к услуге")
+                    print("Переходим к дате и времени")
                 } label: {
                     Text("Дата и время")
-                        .foregroundColor(.orange)
-                        .font(.title)
+                        .foregroundColor(.black)
+                        .font(.title3.bold())
                 }
                 .frame(width: 280,height: 60)
-                .overlay(Capsule().stroke(Color.orange,lineWidth: 5))
+                .overlay(Capsule().stroke(Color.black,lineWidth: 5))
                 
             }
-            .background(Image("back"))
-                .blur(radius: 10)
+            .frame (maxWidth: .infinity, maxHeight: .infinity)
+            .background(Image("back").blur(radius: 10))
         }
        
     }
