@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+let screen = UIScreen.main.bounds
+
 @main
 struct GGAppApp: App {
+    
     let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             MainTabar()

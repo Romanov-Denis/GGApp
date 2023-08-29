@@ -8,19 +8,26 @@
 import SwiftUI
 
 struct FirstPage: View {
+    
+    @State private var isReady = false
+    
+    
     var body: some View {
-        VStack{
-            TabVi
+        VStack {
             VStack (spacing: 60) {
-                Button() {
-                    print("Переходим к услуге")
-                } label: {
-                    Text("Услуга")
-                        .foregroundColor(.black)
-                        .font(.title3.bold())
+                NavigationLink (destination: ServisCatalogView()) {
+                    Button(action: {
+                        print("taped")
+                    }) {
+                        Text("Услуга")
+                            .foregroundColor(.black)
+                            .font(.title3.bold())
+                    }
+                    .frame(width: 280,height: 60)
+                    .overlay(Capsule().stroke(Color.black,lineWidth: 5))
                 }
-                .frame(width: 280,height: 60)
-                .overlay(Capsule().stroke(Color.black,lineWidth: 5))
+                
+                
                 
                 Button() {
                     print("Переходим к сотруднику")
@@ -47,10 +54,8 @@ struct FirstPage: View {
             .background(Image("back").blur(radius: 10))
         }
         
-       
     }
 }
-                    
         
         
 

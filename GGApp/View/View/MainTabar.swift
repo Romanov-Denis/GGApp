@@ -9,36 +9,34 @@ import SwiftUI
 import CoreData
 
 struct MainTabar: View {
-  
+    
     var body: some View {
         TabView {
-            Text("Запись")
+            
+            FirstPage()
                 .tabItem {
                     VStack {
                         Image(systemName: "list.clipboard.fill")
                         Text("Запись")
                     }
                 }
-            
-            Text("Профиль")
+            RegisterPage()
                 .tabItem {
                     VStack {
                         Image(systemName: "person.fill")
                         Text("Профиль")
                     }
                 }
-               
-            
-            Text("О нас")
+            AboutUsView()
                 .tabItem {
                     VStack {
                         Image(systemName: "guaranisign.circle.fill")
                         Text("О нас")
                     }
                 }
-            }
         }
     }
+}
 
    
 struct ContentView_Previews: PreviewProvider {

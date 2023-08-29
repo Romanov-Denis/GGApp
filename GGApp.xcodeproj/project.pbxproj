@@ -16,6 +16,10 @@
 		406622092A9B27F200168FC3 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622082A9B27F200168FC3 /* FirstPage.swift */; };
 		4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066220C2A9B325E00168FC3 /* RegisterPage.swift */; };
 		406622112A9C51DB00168FC3 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622102A9C51DB00168FC3 /* AboutUsView.swift */; };
+		406622142A9C9DFA00168FC3 /* ServisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622132A9C9DFA00168FC3 /* ServisModel.swift */; };
+		406622172A9CA17D00168FC3 /* ServisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622162A9CA17C00168FC3 /* ServisCell.swift */; };
+		4066221A2A9DAB5600168FC3 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622192A9DAB5600168FC3 /* CatalogViewModel.swift */; };
+		4066221D2A9DAF1300168FC3 /* ServisCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066221C2A9DAF1200168FC3 /* ServisCatalogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		406622082A9B27F200168FC3 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		4066220C2A9B325E00168FC3 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 		406622102A9C51DB00168FC3 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		406622132A9C9DFA00168FC3 /* ServisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServisModel.swift; sourceTree = "<group>"; };
+		406622162A9CA17C00168FC3 /* ServisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServisCell.swift; sourceTree = "<group>"; };
+		406622192A9DAB5600168FC3 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		4066221C2A9DAF1200168FC3 /* ServisCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServisCatalogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				406621EE2A9B255100168FC3 /* GGAppApp.swift */,
-				406622072A9B271000168FC3 /* View */,
+				4066221B2A9DAC8C00168FC3 /* ViewModel */,
+				406622152A9CA16300168FC3 /* Model */,
+				406622122A9C9DD100168FC3 /* View */,
 				406621F22A9B255200168FC3 /* Assets.xcassets */,
 				406621F72A9B255200168FC3 /* Persistence.swift */,
 				406621F92A9B255200168FC3 /* GGApp.xcdatamodeld */,
@@ -79,15 +89,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		406622072A9B271000168FC3 /* View */ = {
+		406622122A9C9DD100168FC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				406621F02A9B255100168FC3 /* MainTabar.swift */,
 				406622102A9C51DB00168FC3 /* AboutUsView.swift */,
 				406622082A9B27F200168FC3 /* FirstPage.swift */,
+				4066221C2A9DAF1200168FC3 /* ServisCatalogView.swift */,
 				4066220C2A9B325E00168FC3 /* RegisterPage.swift */,
+				406622182A9CA1B800168FC3 /* Components */,
 			);
-			path = View;
+			name = View;
+			path = View/View;
+			sourceTree = "<group>";
+		};
+		406622152A9CA16300168FC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				406622132A9C9DFA00168FC3 /* ServisModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		406622182A9CA1B800168FC3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				406622162A9CA17C00168FC3 /* ServisCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4066221B2A9DAC8C00168FC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				406622192A9DAB5600168FC3 /* CatalogViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				406621F82A9B255200168FC3 /* Persistence.swift in Sources */,
+				406622172A9CA17D00168FC3 /* ServisCell.swift in Sources */,
+				406622142A9C9DFA00168FC3 /* ServisModel.swift in Sources */,
+				4066221A2A9DAB5600168FC3 /* CatalogViewModel.swift in Sources */,
 				406621FB2A9B255200168FC3 /* GGApp.xcdatamodeld in Sources */,
+				4066221D2A9DAF1300168FC3 /* ServisCatalogView.swift in Sources */,
 				4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */,
 				406621F12A9B255100168FC3 /* MainTabar.swift in Sources */,
 				406621EF2A9B255100168FC3 /* GGAppApp.swift in Sources */,

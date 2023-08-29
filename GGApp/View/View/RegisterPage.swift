@@ -102,7 +102,7 @@ struct RegisterPage: View {
             .background(Image("back").blur(radius: 10))
             .animation(Animation.easeOut(duration: 0.3), value: isAuth)
             .fullScreenCover(isPresented: $isTabViewShow) {
-                FirstPage()
+               MainTabar()
             }
     }
 }
