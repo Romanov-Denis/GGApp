@@ -20,6 +20,8 @@ struct MainTabar: View {
                         Text("Запись")
                     }
                 }
+                .foregroundColor(Color.black)
+            
             RegisterPage()
                 .tabItem {
                     VStack {
@@ -27,11 +29,13 @@ struct MainTabar: View {
                         Text("Профиль")
                     }
                 }
+            
             AboutUsView()
                 .tabItem {
                     VStack {
                         Image(systemName: "guaranisign.circle.fill")
                         Text("О нас")
+                        
                     }
                 }
         }

@@ -11,30 +11,36 @@ struct ServisCatalogView: View {
     let layout = [GridItem(.adaptive(minimum: screen.width / 2))]
     
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            Section("Акции") {
-                ScrollView(.horizontal,showsIndicators: false) {
-                    LazyHGrid(rows: layout, spacing: 12) {
-                        ForEach(CatalogViewModel.shared.favorite, id: \.id) { item in
-                            ServisCell(servis: item)
-                            
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                Section("Акции") {
+                    ScrollView(.horizontal,showsIndicators: false) {
+                        LazyHGrid(rows: layout, spacing: 12) {
+                            ForEach(CatalogViewModel.shared.favorite, id: \.id) { item in
+                                ServisCell(servis: item)
+                                
+                            }
+                        }
+                        .padding()
+                    }
+                }
+                Section("Cтрижки") {
+                    ScrollView(.vertical,showsIndicators: false) {
+                        LazyVGrid(columns: layout, spacing: 12) {
+                            ForEach(CatalogViewModel.shared.servis, id: \.id) { item in
+                                ServisCell(servis: item)
+                            }
                         }
                     }
                     .padding()
                 }
             }
-            Section("Cтрижки") {
-                ScrollView(.vertical,showsIndicators: false) {
-                    LazyVGrid(columns: layout, spacing: 12) {
-                        ForEach(CatalogViewModel.shared.servis, id: \.id) { item in
-                            ServisCell(servis: item)
-                        }
-                    }
-                }
-                .padding()
-            }
+            .frame (maxWidth: .infinity, maxHeight: .infinity)
+                              .background(Image("back").blur(radius: 10))
         }
+      
     }
+
 }
 
 struct ServisCatalogView_Previews: PreviewProvider {

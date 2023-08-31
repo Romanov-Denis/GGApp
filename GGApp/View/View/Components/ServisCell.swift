@@ -13,12 +13,7 @@ struct ServisCell: View {
     
     var body: some View {
         VStack {
-//            Image("haircut")
-//                .resizable()
-//                .aspectRatio(contentMode:.fill)
-               
-//                .clipped()
-//                .cornerRadius(20)
+
             Image("haircut")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
