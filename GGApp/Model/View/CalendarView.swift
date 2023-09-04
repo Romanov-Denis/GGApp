@@ -2,14 +2,20 @@
 //  CalendarView.swift
 //  GGApp
 //
-//  Created by Денис Романов on 29/8/2566 BE.
+//  Created by Денис Романов on 31/8/2566 BE.
 //
 
 import SwiftUI
 
 struct CalendarView: View {
+    
+    @State private var haircutDay = Date()
+    
+    
     var body: some View {
-        Text("Здесь будет выбор даты")
+        VStack {
+        
+        }
     }
 }
 

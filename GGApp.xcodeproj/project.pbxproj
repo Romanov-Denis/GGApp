@@ -20,11 +20,18 @@
 		406622172A9CA17D00168FC3 /* ServisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622162A9CA17C00168FC3 /* ServisCell.swift */; };
 		4066221A2A9DAB5600168FC3 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622192A9DAB5600168FC3 /* CatalogViewModel.swift */; };
 		4066221D2A9DAF1300168FC3 /* ServisCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066221C2A9DAF1200168FC3 /* ServisCatalogView.swift */; };
-		4066221F2A9E2FDC00168FC3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066221E2A9E2FDC00168FC3 /* CalendarView.swift */; };
-		406622212A9E301700168FC3 /* EmploeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622202A9E301700168FC3 /* EmploeeView.swift */; };
 		406622232A9F88D600168FC3 /* BarberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622222A9F88D600168FC3 /* BarberViewModel.swift */; };
 		406622252A9F88EA00168FC3 /* BarberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622242A9F88E900168FC3 /* BarberCell.swift */; };
 		406622272A9FFE2600168FC3 /* BarberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622262A9FFE2600168FC3 /* BarberModel.swift */; };
+		406622292AA03E3E00168FC3 /* DetailBarberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622282AA03E3E00168FC3 /* DetailBarberView.swift */; };
+		4066222B2AA0E60D00168FC3 /* BarbersCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066222A2AA0E60D00168FC3 /* BarbersCatalogView.swift */; };
+		4066222D2AA0E93B00168FC3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066222C2AA0E93B00168FC3 /* CalendarView.swift */; };
+		406622302AA3250F00168FC3 /* AppNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066222F2AA3250F00168FC3 /* AppNavigationBarView.swift */; };
+		406622322AA3291C00168FC3 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622312AA3291C00168FC3 /* CustomNavigationBarView.swift */; };
+		406622342AA3341500168FC3 /* CustomNavigationBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622332AA3341500168FC3 /* CustomNavigationBarContainer.swift */; };
+		406622362AA3568C00168FC3 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622352AA3568C00168FC3 /* CustomNavView.swift */; };
+		406622382AA35C2500168FC3 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622372AA35C2500168FC3 /* CustomNavLink.swift */; };
+		4066223A2AA38BCD00168FC3 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406622392AA38BCC00168FC3 /* CustomNavBarPreferenceKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,11 +49,18 @@
 		406622162A9CA17C00168FC3 /* ServisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServisCell.swift; sourceTree = "<group>"; };
 		406622192A9DAB5600168FC3 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
 		4066221C2A9DAF1200168FC3 /* ServisCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServisCatalogView.swift; sourceTree = "<group>"; };
-		4066221E2A9E2FDC00168FC3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		406622202A9E301700168FC3 /* EmploeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploeeView.swift; sourceTree = "<group>"; };
 		406622222A9F88D600168FC3 /* BarberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberViewModel.swift; sourceTree = "<group>"; };
 		406622242A9F88E900168FC3 /* BarberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberCell.swift; sourceTree = "<group>"; };
 		406622262A9FFE2600168FC3 /* BarberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberModel.swift; sourceTree = "<group>"; };
+		406622282AA03E3E00168FC3 /* DetailBarberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBarberView.swift; sourceTree = "<group>"; };
+		4066222A2AA0E60D00168FC3 /* BarbersCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbersCatalogView.swift; sourceTree = "<group>"; };
+		4066222C2AA0E93B00168FC3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4066222F2AA3250F00168FC3 /* AppNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationBarView.swift; sourceTree = "<group>"; };
+		406622312AA3291C00168FC3 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
+		406622332AA3341500168FC3 /* CustomNavigationBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarContainer.swift; sourceTree = "<group>"; };
+		406622352AA3568C00168FC3 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		406622372AA35C2500168FC3 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		406622392AA38BCC00168FC3 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				406621EE2A9B255100168FC3 /* GGAppApp.swift */,
-				4066221B2A9DAC8C00168FC3 /* ViewModel */,
+				4066222E2AA324B300168FC3 /* CustomNavigationBar */,
 				406622152A9CA16300168FC3 /* Model */,
 				406622122A9C9DD100168FC3 /* View */,
+				4066221B2A9DAC8C00168FC3 /* ViewModel */,
 				406621F22A9B255200168FC3 /* Assets.xcassets */,
 				406621F72A9B255200168FC3 /* Persistence.swift */,
 				406621F92A9B255200168FC3 /* GGApp.xcdatamodeld */,
@@ -104,15 +119,16 @@
 			children = (
 				406621F02A9B255100168FC3 /* MainTabar.swift */,
 				406622102A9C51DB00168FC3 /* AboutUsView.swift */,
-				4066221E2A9E2FDC00168FC3 /* CalendarView.swift */,
-				406622202A9E301700168FC3 /* EmploeeView.swift */,
+				4066222C2AA0E93B00168FC3 /* CalendarView.swift */,
 				406622082A9B27F200168FC3 /* FirstPage.swift */,
 				4066221C2A9DAF1200168FC3 /* ServisCatalogView.swift */,
+				4066222A2AA0E60D00168FC3 /* BarbersCatalogView.swift */,
 				4066220C2A9B325E00168FC3 /* RegisterPage.swift */,
+				406622282AA03E3E00168FC3 /* DetailBarberView.swift */,
 				406622182A9CA1B800168FC3 /* Components */,
 			);
 			name = View;
-			path = View/View;
+			path = Model/View;
 			sourceTree = "<group>";
 		};
 		406622152A9CA16300168FC3 /* Model */ = {
@@ -140,6 +156,19 @@
 				406622222A9F88D600168FC3 /* BarberViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4066222E2AA324B300168FC3 /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				4066222F2AA3250F00168FC3 /* AppNavigationBarView.swift */,
+				406622352AA3568C00168FC3 /* CustomNavView.swift */,
+				406622312AA3291C00168FC3 /* CustomNavigationBarView.swift */,
+				406622332AA3341500168FC3 /* CustomNavigationBarContainer.swift */,
+				406622372AA35C2500168FC3 /* CustomNavLink.swift */,
+				406622392AA38BCC00168FC3 /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,15 +241,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406622342AA3341500168FC3 /* CustomNavigationBarContainer.swift in Sources */,
 				406621F82A9B255200168FC3 /* Persistence.swift in Sources */,
 				406622172A9CA17D00168FC3 /* ServisCell.swift in Sources */,
+				4066222B2AA0E60D00168FC3 /* BarbersCatalogView.swift in Sources */,
+				4066222D2AA0E93B00168FC3 /* CalendarView.swift in Sources */,
 				406622232A9F88D600168FC3 /* BarberViewModel.swift in Sources */,
+				406622292AA03E3E00168FC3 /* DetailBarberView.swift in Sources */,
 				406622252A9F88EA00168FC3 /* BarberCell.swift in Sources */,
-				4066221F2A9E2FDC00168FC3 /* CalendarView.swift in Sources */,
+				406622382AA35C2500168FC3 /* CustomNavLink.swift in Sources */,
 				406622142A9C9DFA00168FC3 /* ServisModel.swift in Sources */,
-				406622212A9E301700168FC3 /* EmploeeView.swift in Sources */,
+				406622322AA3291C00168FC3 /* CustomNavigationBarView.swift in Sources */,
+				4066223A2AA38BCD00168FC3 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				4066221A2A9DAB5600168FC3 /* CatalogViewModel.swift in Sources */,
 				406621FB2A9B255200168FC3 /* GGApp.xcdatamodeld in Sources */,
+				406622302AA3250F00168FC3 /* AppNavigationBarView.swift in Sources */,
 				4066221D2A9DAF1300168FC3 /* ServisCatalogView.swift in Sources */,
 				4066220D2A9B325E00168FC3 /* RegisterPage.swift in Sources */,
 				406622272A9FFE2600168FC3 /* BarberModel.swift in Sources */,
@@ -228,6 +263,7 @@
 				406621EF2A9B255100168FC3 /* GGAppApp.swift in Sources */,
 				406622092A9B27F200168FC3 /* FirstPage.swift in Sources */,
 				406622112A9C51DB00168FC3 /* AboutUsView.swift in Sources */,
+				406622362AA3568C00168FC3 /* CustomNavView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -338,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -364,6 +400,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +430,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

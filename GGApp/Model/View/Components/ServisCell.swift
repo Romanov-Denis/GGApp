@@ -12,33 +12,28 @@ struct ServisCell: View {
     var servis: Servis
     
     var body: some View {
-        VStack {
-
-            Image("haircut")
+        VStack(spacing: -5) {
+            Image("haircut2")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 350,height: 200)
-                .clipped()
-                .cornerRadius(20)
-            
-            HStack(spacing: 90) {
+                .frame(width: screen.width * 0.95, height: screen.height * 0.2)
+                .shadow(radius: 5)
+                .cornerRadius(15)
+                .offset(y: -18)
+                .padding(.horizontal)
+            HStack(spacing: 100) {
                 Text(servis.name)
-                    .font(.custom("AvenirNext-bold", size: 20))
-                
+                    .font(.custom("AvenirNext-bold", size: 17))
                 Text("\(servis.price)")
                     .font(.custom("AvenirNext-bold", size: 15))
-                
+                    .foregroundColor(Color.white)
             }
-            VStack {
-            Text (servis.discription)
-                    .font(.custom("AvenirNext-regular",size: 10))
-                    .foregroundColor(.black)
-            }
+            
         }
-        .frame(width: 350,height: 256)
-        .background(Color(.gray))
-        .cornerRadius(20)
-        .shadow(radius: 3)
+        .frame(width:screen.width * 0.95, height: screen.height * 0.22)
+        .background(Color("half-white"))
+        .cornerRadius(15)
+       
     }
 }
  

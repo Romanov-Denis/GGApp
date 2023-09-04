@@ -13,8 +13,8 @@ struct FirstPage: View {
     
     
     var body: some View {
-        NavigationView {
-            VStack {
+        CustomNavView {
+            VStack() {
                 Image("logo")
                     .resizable()
                     .frame(width: 300, height: 150, alignment: .top)
@@ -22,28 +22,33 @@ struct FirstPage: View {
                 Spacer()
                 VStack {
                     VStack (spacing: 40) {
-                        NavigationLink(destination: ServisCatalogView()) {
+                       
+                        CustomNavLink(destination: ServisCatalogView()
+                            .customNavigationTitle("Услуги")) {
                             Text("Услуги")
                                 .foregroundColor(.black)
                                 .font(.title3.bold())
+                                .frame(width: 280,height: 60)
+                                .overlay(Capsule().stroke(Color.black,lineWidth: 5))
                         }
-                        .frame(width: 280,height: 60)
-                        .overlay(Capsule().stroke(Color.black,lineWidth: 5))
+                       
                         
-
-                        NavigationLink(destination: EmploeeView()) {
-                                Text("Сотрудник")
-                                    .foregroundColor(.black)
-                                    .font(.title3.bold())
-                            }
-                        .frame(width: 280,height: 60)
-                        .overlay(Capsule().stroke(Color.black,lineWidth: 5))
+                        CustomNavLink(destination: BarbersCatalogView()
+                            .customNavigationTitle("Сотрудники")) {
+                            Text("Сотрудники")
+                                .foregroundColor(.black)
+                                .font(.title3.bold())
+                                .frame(width: 280,height: 60)
+                                .overlay(Capsule().stroke(Color.black,lineWidth: 5))
+                        }
                         
-                        NavigationLink(destination: CalendarView()) {
-                                Text("Дата и время")
-                                    .foregroundColor(.black)
-                                    .font(.title3.bold())
-                            }
+                        
+                        CustomNavLink(destination: CalendarView()
+                            .navigationTitle("")) {
+                            Text("Дата и время")
+                                .foregroundColor(.black)
+                                .font(.title3.bold())
+                        }
                         .frame(width: 280,height: 60)
                         .overlay(Capsule().stroke(Color.black,lineWidth: 5))
                     }
@@ -57,7 +62,6 @@ struct FirstPage: View {
         }
     }
 }
-        
         
 
     

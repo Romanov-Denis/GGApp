@@ -9,9 +9,11 @@ import SwiftUI
 import CoreData
 
 struct MainTabar: View {
+
+    @State private var selection: String = "Запись"
     
     var body: some View {
-        TabView {
+        TabView(selection: $selection) {
             
             FirstPage()
                 .tabItem {
@@ -19,8 +21,9 @@ struct MainTabar: View {
                         Image(systemName: "list.clipboard.fill")
                         Text("Запись")
                     }
+                    
                 }
-                .foregroundColor(Color.black)
+            
             
             RegisterPage()
                 .tabItem {
@@ -35,14 +38,15 @@ struct MainTabar: View {
                     VStack {
                         Image(systemName: "guaranisign.circle.fill")
                         Text("О нас")
-                        
                     }
                 }
+            }
         }
     }
-}
 
-   
+    
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabar()

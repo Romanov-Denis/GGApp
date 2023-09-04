@@ -17,6 +17,10 @@ struct GGAppApp: App {
         WindowGroup {
             MainTabar()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .onAppear {
+                    UINavigationBar.appearance().backIndicatorImage = UIImage(systemName: "arrow.backward")
+                    UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(systemName: "arrow.backward")
+                }
         }
     }
 }
